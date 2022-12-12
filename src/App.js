@@ -5,6 +5,14 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Title from "./components/Title";
 import MyName from "./components/MyName";
+import Form from "./components/Form";
+import Mycount from "./components/Mycount";
+import Users from "./components/Users";
+import Event from "./components/Event";
+import Range from "./components/Range";
+import Submit from "./components/Submit";
+import InputFocus from "./components/InputFocus";
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +22,14 @@ function App() {
       <Title name="Fronted Devloper" />
       <Title name="Mobile Devloper" />
       <Title name="Solidity Devloper" />
-      <MyName/>
+      <MyName />
+      <Form />
+      <Mycount />
+      <Users />
+      <Event />
+      <Range/>
+      <Submit/>
+      <InputFocus/>
     </div>
   );
 }
